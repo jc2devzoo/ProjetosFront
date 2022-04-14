@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <label class="Logo"> JC² Design </label>
+            <ul class="nav-list">
+                <li class="link" id="Home"> <a class="active" href="">Home</a></li>
+                <li class="link" id="Home"> <a href="">About us</a></li>
+                <li class="link" id="Home"> <a href="">Services</a></li>
+                <li class="link" id="Home"> <a href="">Contact</a></li>
+                <li class="link" id="Home"> <a href="">Feedback</a></li>
+            </ul>
+        </nav>
+        <section class="hero1">
+
+        </section>
+        <section class="testemunial">
+
+        </section>
+    </header>
+
+    <script>
+        window.addEventListener("scroll", function() {
+            var nav = document.querySelector("nav");
+            nav.classList.toggle("active", window.scrollY > 0)
+        })
+    </script>
+</body>
+
+</html>

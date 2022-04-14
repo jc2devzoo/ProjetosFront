@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: whitesmoke;
+}
+
+header {
+    text-align: center;
+    align-content: flex-end;
+    margin-top: 2rem;
+}
+
+header .logo {
+    padding: 3rem;
+    margin-bottom: 2rem;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 4rem;
+    font-weight: bolder;
+    text-align: end;
+    align-self: center;
+}
+
+header ul {
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 5rem;
+}
+
+header ul li {
+    justify-content: center;
+}
+
+header ul li:hover a {
+    color: white;
+    background: #800909;
+}
+
+header ul li a {
+    height: 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    margin: 0 1rem 2rem 1rem;
+    background: white;
+    color: black;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: ease-in-out 0.3s;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 40rem;
+    width: 65rem;
+    justify-content: center;
+}
+
+section .text {
+    background: white;
+    text-align: right;
+    padding: 1rem;
+}
+
+section .text h1 {
+    text-transform: capitalize;
+    margin: 3rem 1rem 0 0;
+    font-size: 30px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+section .text p {
+    margin: 1.5rem 1rem 3rem 3rem;
+    font-size: 20px;
+}
+
+section .text button {
+    width: 150px;
+    height: 50px;
+    background: #fa3419;
+    color: whitesmoke;
+    font-size: 20px;
+    margin-right: 1rem;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    text-transform: uppercase;
+}
+
+section .text button:hover {
+    transform: scale(1.05);
+    background: #800909;
+}
+
+section div img {
+    width: 100%;
+}
+
+section .title {
+    text-transform: uppercase;
+    text-align: right;
+    color: darkgray;
+    font-size: 2rem;
+    margin-right: 1rem;
+}
+
+section .vantagens {
+    background: white;
+    text-align: left;
+    padding-left: 3rem;
+}
+
+section .vantagens h1 i {
+    color: #fa3419;
+    font-size: 19px;
+}
+
+section .vantagens p {
+    text-align: left;
+    padding-left: 2rem;
+}

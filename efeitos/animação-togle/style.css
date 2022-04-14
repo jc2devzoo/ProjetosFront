@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f5f5f5;
+}
+
+.toggle {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    box-sizing: 0 10px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.toggle span {
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    background: #1663ff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+.toggle span:nth-child(1) {
+    transform: translatey(-15px);
+    width: 35px;
+    left: 15px;
+}
+
+.toggle.active span:nth-child(1) {
+    width: 40px;
+    transform: translateY(0px) rotate(45deg);
+}
+
+.toggle span:nth-child(2) {
+    transform: translatey(15px);
+    width: 30px;
+    left: 15px;
+}
+
+.toggle.active span:nth-child(2) {
+    width: 40px;
+    transform: translateY(0px) rotate(135deg);
+}
+
+.toggle.active span:nth-child(3) {
+    transform: translateX(60px);
+}

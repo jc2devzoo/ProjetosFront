@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@100;300;400;500;600&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 7%;
+    background: white;
+    min-height: 100vh;
+    gap: 15px;
+    padding-bottom: 80px;
+}
+
+.container .content {
+    flex: 1 1 400px;
+    text-align: center;
+}
+
+.container .image {
+    flex: 1 1 400px;
+    margin: 100px;
+    padding-left: 50px;
+}
+
+.container .image img {
+    width: 100%;
+}
+
+.container .content .title {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #8c9c74;
+    text-align: center;
+}
+
+.container .content p {
+    padding: 5px 0;
+    color: #666;
+    text-align: center;
+    margin: 5px;
+}
+
+.container .content .count-down {
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+}
+
+.container .content .count-down .box {
+    padding: 15px;
+    background: #eee;
+    border: 2px solid rgb(39, 85, 58);
+    text-align: center;
+    flex: 1 1 5px;
+    color: #8c9c74;
+}
+
+.container .content .count-down .box h3 {
+    font-size: 50px;
+}
+
+.container .content .count-down .box span {
+    color: #3a4245;
+    font-size: 20px;
+}
+
+.container .content .btn {
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 10px 0;
+    font-size: 17px;
+    background: #8c9c74;
+    color: #fff;
+    transition: .2s ease-out;
+    border-radius: 50px;
+}
+
+.container .content .btn:hover {
+    transform: scale(95%);
+    color: rgb(39, 85, 58);
+    background: #aeca85;
+}
+
+@media(max-width:790px) {
+    .container .image {
+        margin: 1px;
+        padding: 1px;
+    }
+}
+
+@media( max-width:500px) {
+    .container {
+        padding: 20px;
+    }
+    .container .content .title {
+        font-size: 35px;
+    }
+    .container .content p {
+        font-size: 14px;
+    }
+    .container .image {
+        flex: 1 1 400px;
+        margin: 1px;
+        padding: 10px;
+    }
+}
