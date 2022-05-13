@@ -1,3 +1,2 @@
 # partes
-componentes para front end afim de
-acelerar a produção de sites com intençao de focar apenas no back-end
+ESTE REPOSITORIO VOU DEIXAR TRANALHOS FRONT END QUE JA FIZ E VOU FAZER 
